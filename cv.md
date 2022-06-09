@@ -8,3 +8,25 @@
 ### About me:
 I am 22 years old and I work in a high school. It's time to move on, because the current work has become an uninteresting routine for me. I am sociable, stress-resistant, hardworking. I like to study and learn new information every day. I want to become a developer!
 > If you really want to, you can fly into space!
+***
+### Skills:
+- JS
+- HTML
+- CSS
+- Photoshop
+***
+### Code: 
+```
+function multiply(a, b){
+  return a * b
+}
+```
+***
+### Education:
+- 2017-2020 Minsk Radiotechnical College
+  - software engineer
+***
+### Languages:
+- Russian (native)
+- Belarussian
+- English (A2)

@@ -10,7 +10,7 @@ I am 22 years old and I work in a high school. It's time to move on, because the
 - JS
 - HTML
 - CSS
-- Photoshop
+- Photoshop  
 # Code: 
 ```
 function multiply(a, b){
@@ -19,8 +19,8 @@ function multiply(a, b){
 ```
 # Education:
 - 2017-2020 Minsk Radiotechnical College
-  - software engineer
+  - software engineer  
 # Languages:
 - Russian (native)
 - Belarussian
-- English (A2)
+- English (A2)  

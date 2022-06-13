@@ -11,10 +11,28 @@ body{
 
 .main-block{
     display: flex;
+    flex-wrap: wrap;
 }
 
-.first-block, .second-block{
+.first-block, .second-block, .third-block, .fourty-block{
     flex-basis: 50%;
+}
+
+.first-block{
+    order: 2;
+}
+
+.second-block{
+    order: 3;
+}
+
+.third-block{
+    order: 1;
+}
+
+
+.fourty-block{
+    order: 4;
 }
 
 .container{
@@ -25,6 +43,7 @@ body{
     padding: 10px;
 }
 
+
 .about{
     text-align: justify;
 }
@@ -34,6 +53,7 @@ h2{
     margin-top: 0;
 }
 
-main>*{
-
+img{
+    border-radius: 10px;
 }
+

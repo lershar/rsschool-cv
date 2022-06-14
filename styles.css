@@ -27,11 +27,11 @@ body{
 .menu-item{
     padding: 0 10px;
     list-style-type: none;
-    text-transform: uppercase;
 }
 
 a{
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 a:hover{
@@ -70,6 +70,19 @@ a:hover{
     order: 4;
 }
 
+.footer-content{
+    display: flex;
+    background-color: #BB63D4;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+}
+
 .container{
     margin-bottom: 10px; 
     background-color: #BB63D4;
@@ -89,7 +102,7 @@ h2{
     border-radius: 10px;
 }
 
-img{
+.picture{
     border-radius: 20px; 
     max-width: 250px; 
     max-height: 250px;

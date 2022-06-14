@@ -1,0 +1,119 @@
+body{
+    background-color: #B23AD4	;
+    color: #E5FB00	;
+}
+
+.big-container{
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Comfortaa', cursive;
+}
+
+.nav-menu{
+    display: flex;
+    background-color: #BB63D4;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.menu-item{
+    padding: 0 10px;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover{
+    color:#E5FB00;
+}
+
+.main-block{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.first-block, .second-block, .third-block, .fourty-block{
+    flex-basis: 50%;
+    flex-grow: 3;
+}
+
+.first-block{
+    order: 2;
+}
+
+.second-block{
+    order: 3;
+}
+
+.third-block{
+    display: flex;
+    flex-direction: column;
+    order: 1;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+
+.fourty-block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    order: 4;
+    padding-bottom: 10px;
+}
+
+.footer-content{
+    display: flex;
+    background-color: #BB63D4;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    opacity: 60%;
+    width: 60px;
+    height: 30px;
+}
+
+.logo:hover{
+    opacity: 100%;
+}
+
+.container{
+    margin-bottom: 10px; 
+    background-color: #BB63D4;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+.about{
+    text-align: justify;
+}
+
+h2{
+    text-transform: uppercase;
+    margin-top: 0;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.picture{
+    border-radius: 20px; 
+    max-width: 250px; 
+    max-height: 250px;
+}
+

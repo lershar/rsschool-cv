@@ -1,12 +1,12 @@
 body{
-    background-color: #E1E6C6;
-    color: #49562A;
+    background-color: #B23AD4	;
+    color: #E5FB00	;
 }
 
 .big-container{
     width: 80%;
     margin: 0 auto;
-    font-family: 'Concert One', cursive;
+    font-family: 'Comfortaa', cursive;
 }
 
 .main-block{
@@ -16,6 +16,7 @@ body{
 
 .first-block, .second-block, .third-block, .fourty-block{
     flex-basis: 50%;
+    flex-grow: 3;
 }
 
 .first-block{
@@ -27,7 +28,11 @@ body{
 }
 
 .third-block{
+    display: flex;
+    flex-direction: column;
     order: 1;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -36,9 +41,8 @@ body{
 }
 
 .container{
-    margin-bottom: 10px;
-    margin-right: 10px; 
-    background-color: #AFC073;
+    margin-bottom: 10px; 
+    background-color: #BB63D4;
     border-radius: 10px;
     padding: 10px;
 }
@@ -51,9 +55,13 @@ body{
 h2{
     text-transform: uppercase;
     margin-top: 0;
+    padding: 3px;
+    border-radius: 10px;
 }
 
 img{
-    border-radius: 10px;
+    border-radius: 100px;
+    height: 50%;
+    width: 50%;
 }
 

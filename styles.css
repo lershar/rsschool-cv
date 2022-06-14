@@ -67,7 +67,11 @@ a:hover{
 
 
 .fourty-block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     order: 4;
+    padding-bottom: 10px;
 }
 
 .footer-content{
@@ -79,8 +83,13 @@ a:hover{
 }
 
 .logo{
+    opacity: 60%;
     width: 60px;
-    height: 60px;
+    height: 30px;
+}
+
+.logo:hover{
+    opacity: 100%;
 }
 
 .container{
